@@ -1,6 +1,6 @@
 # Jira Updater
 Update Jira issue - summary 
-Based on fernandezafb/jira-updater
+Based on [fernandezafb/jira-updater](https://github.com/fernandezafb/jira-updater)
 
 
 > ##### Only supports Jira Cloud. Does not support Jira Server (hosted)
