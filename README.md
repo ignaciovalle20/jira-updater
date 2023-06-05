@@ -1,5 +1,7 @@
 # Jira Updater
-Update Jira issue
+Update Jira issue - summary 
+Based on fernandezafb/jira-updater
+
 
 > ##### Only supports Jira Cloud. Does not support Jira Server (hosted)
 
@@ -12,10 +14,10 @@ Example update action:
 ```yaml
 - name: Update issue
   id: update
-  uses: fernandezafb/jira-updater@master
+  uses: ignaciovalle20/jira-updater@master
   with:
-    issue: GA-181
-    summary: "17.5.0"
+    issue: AG-81
+    summary: "New Deploy For AppName 17.5.0"
 ```
 
 The `issue` parameter can be an issue id created or retrieved by an upstream action – for example, [`Create`](https://github.com/marketplace/actions/jira-create) or [`Find Issue Key`](https://github.com/marketplace/actions/jira-find). Here is full example workflow:
